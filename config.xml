@@ -15,7 +15,7 @@
     Julia Liliana Ramirez Casquera
    </author>
    
-   <!--Personaliza la aplicacion y plataforma -->
+  <!--Personaliza la aplicacion y plataforma -->
    <preference name="orientation"  value="default"/>
    <!--<preference name="orientation"  value ="portrait"/>
    <preference name="orientation"  value="landscape"/>-->
@@ -26,10 +26,10 @@
    
    <!--Para accesar a paginas en internet-->
    <allow-intent href="https://*/*"/>
-   <acces origin= "https://*/*"/>
+   <acces origin="https://*/*"/>
    <allow-intent href="http://*/*"/>
    <acces origin= "http://*/*"/>
-   <plugin name= "cordova-plugin-whitelist" source="nom"/>
+   <plugin name= "cordova-plugin-whitelist" source="npm"/>
    
    
    
